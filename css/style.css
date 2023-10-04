@@ -1,0 +1,486 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+   
+}
+
+body {
+    height: 100%vh;
+    width: 100%vw;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./assets/home-imgs/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.glass {
+    width: 95%vw;
+    height: 90%vh;
+    margin: 30px;
+    background-color: rgb(255 255 255 / 31%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255 255 255 / 31%);
+    height: 75px;
+    cursor: pointer;
+}
+
+#logo {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 0 0 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#logo:hover {
+    transition: ease-in-out 1s;
+    transform: scale(1.15)
+}
+
+.navbar ul li {
+    float: left;
+    list-style: none;
+    padding: 30px;
+    padding-bottom: 21px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(255 255 255 / 31%);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgba(74, 73, 74, 0.78);
+    font-size: 20px
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 20%;
+    background-color: rgb(255 255 255 / 31%);
+    width: 900px;
+    height: 48px;
+}
+
+.product ul li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding-bottom:16px;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: 2px solid gray;
+    border-radius: 0px;
+    height: 48px;
+    margin-left:  20px;
+}
+
+.product ul li:nth-child(5) {
+    border-right: 0px;
+}
+
+.product ul li:nth-child(1) {
+    border-left: 0px;
+}
+
+.product ul li a {
+    text-decoration: none;
+    color: rgb(184, 58, 161);
+    text-align: center;
+    font-size: 20px;
+}
+
+.product ul li a:hover {
+    color: white;
+    transition: ease-in-out;
+}
+.product ul li a:active{
+    color: blue;
+}
+.product ul li a:checked{
+    color: red;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 3px 10px rgb(168, 57, 76);
+    color: white;
+    cursor: default;
+}
+
+h2:hover {
+    text-shadow: 0px 3px 15px rgb(168, 57, 76);
+    transition: ease-in-out;
+}
+
+.add {
+    height: 500px;
+    width: 100%;
+    margin: 30px;
+    margin-left: -10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.add video {
+    height: 450px;
+    margin-left: 10%;
+}
+
+.new{
+    height: 470px;
+    width: 350px;
+    background-color: rgb(255 255 255 / 31%);
+   margin: 10px;
+   margin-bottom: 0px;
+   font-size: 19px;
+   font-style: italic;
+   text-align: center
+}
+.new h3,h4{
+    font-weight: 500;
+}
+.new h4{
+    font-size: 20px;
+    text-decoration:line-through;
+}
+.new img{
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 400px;
+    width: 350px;
+}
+
+.new:hover{
+    transition: linear 3s;
+    transform: scale(1.1)
+}
+
+.marketing {
+    height: 300px;
+    width: 90%;
+    background-color: red;
+    background-image: url(./assets/home-imgs/Sale.png);
+    background-size: contain;
+    margin-left: 60px;
+    margin: 60px 60px;
+}
+
+.add1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.add1 video {
+    height: 450px;
+    margin-left: 4%;
+}
+
+.add1 img {
+    height: 400px;
+    margin-top: 60px;
+}
+
+.ruppes2 {
+    color: rgb(0, 0, 0);
+    background-color:transparent;
+    display:block;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.ruppes2 h3 {
+    font-weight: 20;
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255 255 255 / 31%);
+    margin-top: 30px;
+    border-radius: none;
+    color: rgb(80, 72, 72);
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+/*outfits*/
+img{
+    height: 600px;
+    width: 90%;
+    margin: 20px;
+ margin-left:60px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.items{
+    height: 315px;
+    width: 250px;
+    background-color: rgb(255 255 255 / 31%);
+   margin: 20px;
+}
+
+.items img{
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 250px;
+    width: 249px;
+}
+.items img:hover{
+    transition: linear 0.5s;
+    transform: scale(1.1);
+}
+.items h3{
+    font-size: 26px;
+    text-align: center;
+    color:rgb(3, 139, 149);
+    font-weight:500;
+    cursor: default;
+}
+.items h4{
+    font-size:23px ;
+    text-align: center;
+    font-style: oblique;
+    font-weight:500;
+    color: rgb(0, 0, 0);
+    cursor: default;
+}
+#vid video{
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#iphone{
+    height: 800px;
+    width: 80%;
+}
+.cover img{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+
+}
+.add3{
+    height:600px;
+    width: 90%;
+}
+.add3 video{
+    height: 600px;
+    margin-left:10%
+
+}
+
+@media only screen and (max-width:576px){
+    .header {
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    
+    #logo {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 3px 1px;
+        padding-left: 4px;
+    }
+    .navbar ul li {
+        padding: 5px;
+        padding-top: 14px;
+    }
+    .navbar ul li a {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .content {
+        margin: 5px;
+        width: 500px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .product ul li {
+        padding-bottom:6px;
+        padding-top:6px;
+        padding-right: 2px;
+        padding-left: 2px;
+        border-left: 0.5px solid gray;
+        height: 100%;
+        margin:5px;
+    }
+    .product ul li a {
+        font-size: 16px;
+        margin: 2px;
+
+    }
+    .product ul li:hover{
+     background-color: rgb(255 255 255 / 31%);
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: 200;
+        margin:10px 10px;
+    }    
+    .add {
+        height: 200px;
+        width: 300px;
+        margin: 1px;
+        margin-left: 30px;
+
+    }
+    
+    .add video {
+        margin-top: -55px;
+        height: 300px;
+        width: 300px;
+        margin-left: 50%;
+    }
+    
+    .new{
+        height: 185px;
+        width: 100px;
+        margin-left:40px;
+       margin-top:12px;
+       font-size: 19px;
+    }
+    .new h3,h4{
+        font-weight: 100;
+        font-size: 14px;
+    }
+    .new h4{
+        font-size: 12px;
+    }
+    .new img{
+        margin-left: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        height: 130px;
+        width: 100px;
+    }
+    
+    .marketing {
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 16px 16px;
+        margin-left: 5%;
+    }
+    
+    .add1 {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .add1 video {
+        height: 200px;
+        margin-left: 5%;
+    }
+    
+    .add1 img {
+        height: 200px;
+        margin-right: 20%;
+    }
+    
+    .ruppes2 {
+        font-size: 20px;
+        font-style: italic;
+        color:transparent;
+    }
+    .ruppes2 h3 {
+        font-weight: 20;
+        margin-bottom: 10px;
+        margin-left: 20%;
+    }
+    
+    .footer {
+        margin-top: 10px;
+    }
+    
+    .footer ul {
+        font-size: 12px;
+    }
+     
+    /*outfits*/
+    .items{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .items img{
+        height: 150px;
+        width: 200px;
+    }
+    .items h3{
+        font-size: 17px;
+    }
+    .items h4{
+        font-size:16px ;
+    }
+    #vid{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        height: 200px;
+        width: 100%;
+    }
+    #vid video{
+        height: 200px;
+        width: 80%;
+        margin-top :-1% ;
+        margin-left: 8%;
+      
+    }
+    #lappy{
+        height: 400px;
+        width: 80%;
+        margin-right:60px;
+    }
+    .cover img{
+        height: 240px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 25px;
+    
+    }
+    .add3{
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .add3 video{
+        height: 500px;
+        width: 400px;
+        padding-bottom:280px;
+    }
+   
+}
